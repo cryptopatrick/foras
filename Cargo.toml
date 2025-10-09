@@ -1,0 +1,27 @@
+[package]
+name = "foras"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = "First-Order Logic Theorem Prover"
+documentation = "https://docs.rs/foras"
+homepage = "https://github.com/cryptopatrick/foras"
+repository = "https://github.com/cryptopatrick/foras"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "foras"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
