@@ -1,16 +1,16 @@
 [package]
 name = "foras"
-version = "0.1.0"
+version = "0.0.5"
 edition = "2024"
 authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
 
 ###############################################################################
-description = "First-Order Logic Theorem Prover"
+description = "First-Order Reasoner"
 documentation = "https://docs.rs/foras"
 homepage = "https://github.com/cryptopatrick/foras"
 repository = "https://github.com/cryptopatrick/foras"
 readme = "README.md"
-keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+keywords = ["ai", "reasoner", "inference"]
 license = "MIT"
 autotests = false
 
@@ -25,3 +25,4 @@ path = "tests/test.rs"
 
 ###############################################################################
 [dependencies]
+scryer-prolog = "0.10.0"
